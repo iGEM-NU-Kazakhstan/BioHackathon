@@ -19,7 +19,7 @@ Google Form for submissions will be available with tasks. Only one member of the
 There are 4 different tasks in categories Web Development, Biological Circuits, Predictive Biology, and Sequence Analysis. Note that there will be one winning team per task. Winners will be announced 1 week after the event, on October 19, 2021.
 Image
 
-# Communication
+## Communication
 
-# Prizes
+## Prizes
 
