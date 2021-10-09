@@ -10,7 +10,12 @@ You will have 48 hours to complete your tasks and upload solutions in the follow
 
 1. 3-5 minute long presentation video (.mp4) OR detailed description of your solution with visual elements in (.pdf) format 
 
-2. Upload your code on github (detailed instructions will be available with tasks) 
+2. Upload your code on github 
+  1. Fork this repository
+  2. Go to your team folder inside 'Code Submissions'
+  3. Upload your files in one folder (Note: the size limit for one file is 25 mb, in case it is not enough upload your solution in several steps)
+  4. Then click 'contribute' button
+  5. Name your pull request "[Team Name] Coding Files"
 
 3. Make a publicly available post on any social media (Twitter, Instagram, VK, Telegram channel, Facebook, LinkedIn) featuring hashtag #codeon2021, sharing your experience or telling about the project that you are working on.
 
