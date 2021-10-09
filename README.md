@@ -18,3 +18,8 @@ You will have 48 hours to complete your tasks and upload solutions in the follow
 Google Form for submissions will be available with tasks. Only one member of the team should upload the solutions. If you are facing issues with submission do not hesitate to contact us directly. The deadline for submission is October 12, 12 PM (Almaty Time, GMT 6+)
 There are 4 different tasks in categories Web Development, Biological Circuits, Predictive Biology, and Sequence Analysis. Note that there will be one winning team per task. Winners will be announced 1 week after the event, on October 19, 2021.
 Image
+
+# Communications
+
+# Prizes
+
