@@ -5,9 +5,7 @@ Image
   All tasks will be published online at 12 PM (Almaty time, GMT 6+) on our website (code-on.info). 
 
 (Please add the event to your Google Calendar via this [link](https://calendar.google.com/event?action=TEMPLATE&tmeid=NDYzdmVndWhnb2c4dWU1cm9rMGRuajhzaWogY19zYTViZ2dkN25pOHJwcjY5cThxOHQ5MmUxc0Bn&tmsrc=c_sa5bggd7ni8rpr69q8q8t92e1s%40group.calendar.google.com) to avoid mishaps due to different perceptions of time :D)
-https://calendar.google.com/event?action=TEMPLATE&tmeid=NDYzdmVndWhnb2c4dWU1cm9rMGRuajhzaWogY19zYTViZ2dkN25pOHJwcjY5cThxOHQ5MmUxc0Bn&tmsrc=c_sa5bggd7ni8rpr69q8q8t92e1s%40group.calendar.google.com
-Google Calendar
-With Google's free online calendar, it’s easy to keep track of life’s important events all in one place.
+
 You will have 48 hours to complete your tasks and upload solutions in the following format:
 
 1. 3-5 minute long presentation video (.mp4) OR detailed description of your solution with visual elements in (.pdf) format 
