@@ -1,5 +1,5 @@
 # BioHackathon
-Welcome to the 1st International Student Biohackathon <code-on> organized by Nazarbayev University iGEM Team!
+**Welcome to the 1st International Student Biohackathon <code-on> organized by Nazarbayev University iGEM Team!**
 Image
 All tasks will be published online at 12 PM (Almaty time, GMT 6+) on our website (code-on.info). 
 
