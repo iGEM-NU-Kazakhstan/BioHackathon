@@ -4,7 +4,7 @@ Image
 
   All tasks will be published online at 12 PM (Almaty time, GMT 6+) on our website (code-on.info). 
 
-(Please add the event to your Google Calendar via this link to avoid mishaps due to different perceptions of time :D)
+(Please add the event to your Google Calendar via this [link](https://calendar.google.com/event?action=TEMPLATE&tmeid=NDYzdmVndWhnb2c4dWU1cm9rMGRuajhzaWogY19zYTViZ2dkN25pOHJwcjY5cThxOHQ5MmUxc0Bn&tmsrc=c_sa5bggd7ni8rpr69q8q8t92e1s%40group.calendar.google.com) to avoid mishaps due to different perceptions of time :D)
 https://calendar.google.com/event?action=TEMPLATE&tmeid=NDYzdmVndWhnb2c4dWU1cm9rMGRuajhzaWogY19zYTViZ2dkN25pOHJwcjY5cThxOHQ5MmUxc0Bn&tmsrc=c_sa5bggd7ni8rpr69q8q8t92e1s%40group.calendar.google.com
 Google Calendar
 With Google's free online calendar, it’s easy to keep track of life’s important events all in one place.
