@@ -18,3 +18,11 @@ Chrispie Seeker seeks and hides restrictive enzymes in a given DNA
 
  DNA file must only consists of four letters: A, T, G, C!
  
+ ## Restrictive Sequences
+ 
+ All Restrictive Sequences are in DNA_res_sam.txt
+ 
+ You can eiither edit the file (don't forget to add a ';' after every sequence) or directly add sequences in program
+ 
+ 
+ 
