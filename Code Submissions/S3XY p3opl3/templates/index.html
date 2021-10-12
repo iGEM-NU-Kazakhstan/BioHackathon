@@ -1,0 +1,116 @@
+<html>
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col list-group" style="padding-top: 30px;">
+                    <h2>DNA sequence analyzer</h2>
+                    <br />
+                    <i>Note: be sure to include a start codon and stop codon in your sequence so that code runs smoothly</i>
+                    <textarea id="dna" placeholder="Your DNA sequence" class="form-control" rows="5"></textarea>
+                    <br />
+                    <i>Note: write the restriction site name exactly how they are written officially, e.g. EcoRI is acceptable while ecori is not</i>
+                    <textarea id="restrictions" placeholder="Your restriction site names, separated by new line (if empty, check against all)" class="form-control" rows="3"></textarea>
+                    <hr />
+                    <div class="row">
+                        <div class="col-md-3">
+                            <button id="submitButton" class="btn btn-primary">Submit</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6" style="padding-top: 30px;">
+                    <h3>Found restriction sequences</h3>
+                    <div id="foundEnzymesRes" style="overflow-wrap: break-word;"></div>
+                </div>
+                <div class="col-md-6" style="padding-top: 30px;">
+                    <h3>Amino acid replacements</h3>
+                    <div id="res" style="overflow-wrap: break-word;"></div>
+                </div>
+            </div>
+        </div>
+        <script>
+            function copyToClipboard(element) {
+                var $temp = $("<input>");
+                $("body").append($temp);
+                $temp.val(element).select();
+                document.execCommand("copy");
+                $temp.remove();
+            }
+            $("#submitButton").click(function(){
+                const dna = $("#dna").val().trim();
+                const restrictions = $("#restrictions").val().trim();
+                $.post("/request", {dna: dna.toUpperCase(), restrictions: restrictions}).done(function(data){
+                    console.log(data);
+                    const changes = data.data.map(str => {
+                        const arr = str.split(",");
+                        return {index: parseInt(arr[0]), replace: arr[1], enzyme: arr[2], sequence: arr[3], sequenceIndex: arr[4]};
+                    } );
+                    console.log(changes);
+                    let htmlResult = "";
+                    let copyText = "";
+                    function findIndex(i) {
+                        let changeIndex = -1;
+                        for(let j = 0; j < changes.length; j++) {
+                            if(changes[j].index == i) {
+                                changeIndex = j;
+                                break;
+                            }
+                        }
+                        return changeIndex;
+                    }
+                    for(let i = 0; i < dna.length; i++) {
+                        let changeIndex = findIndex(i);
+                        if(changeIndex == -1) {
+                            htmlResult += dna[i];
+                            copyText += dna[i];
+                        } else {
+                            htmlResult += "<strike>"
+                            htmlResult += dna[i]
+                            htmlResult += dna[i + 1]
+                            htmlResult += dna[i + 2]
+                            htmlResult += "</strike>⟶"
+                            htmlResult += "<b>"
+                            htmlResult += changes[changeIndex].replace;
+                            htmlResult += "</b>"
+                            copyText += changes[changeIndex].replace;
+                            i = i + 2;
+                        }
+                    }
+                    htmlResult += `
+                        <button onclick="copyToClipboard('${copyText}')" class="btn btn-info">Copy</button>
+                    `;
+                    $("#res").html(htmlResult);
+
+                    let htmlOldDna = "";
+
+                    for(let i = 0; i < dna.length; i++) {
+                        let changeIndex = -1;
+                        for(let j = 0; j < changes.length; j++) {
+                            if(changes[j].sequenceIndex == i) {
+                                changeIndex = j;
+                                break;
+                            }
+                        }
+                        if(changeIndex == -1) {
+                            htmlOldDna += dna[i];
+                        } else {
+                            htmlOldDna += '<button onclick="alert(`'+changes[changeIndex].enzyme+'`)" class="btn btn-secondary">';
+                            htmlOldDna += changes[changeIndex].sequence;
+                            htmlOldDna += "</button>";
+                            i = i + changes[changeIndex].sequence.length - 1;
+                        }
+                    }
+                    $("#foundEnzymesRes").html(htmlOldDna);
+                });
+            });
+        </script>
+    </body>
+</html>
