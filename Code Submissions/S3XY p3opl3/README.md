@@ -1,6 +1,6 @@
 # BioHackathon Solution - Seqence Analysis S3XY p3opl3
 
-Here is our solution for Sequence Analysis. I consist of several parts:
+Here is our solution for Sequence Analysis. It consist of several parts:
 1. Sequence analysis algorithm written in C++
 2. Data from publicly available sources: resrtriction enzymes, amino acids.
 3. Web server with convinient UI and basic visualization.
