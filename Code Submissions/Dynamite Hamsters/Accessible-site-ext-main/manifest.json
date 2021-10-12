@@ -1,0 +1,32 @@
+{
+    "manifest_version":2,
+    "name": "makeItEasy",
+    "description":"Make sites accessible for people with disabilities",
+    "version":"0.0.1",
+    "author":"Dynimite hamsters",
+    "browser_action":{
+        "default_title":"Accessible sites",
+        "default_popup":"index.html"
+    },
+    "content_scripts":[
+        {
+            "matches":[
+                "<all_urls>"
+                ],
+            "exclude_matches": ["https://www.google.com/*", "https://google.com/*", "http://www.google.com/*", "http://google.com/*", "https://mail.google.com/*", "http://mail.google.com/*", "https://studio.youtube.com/*"], 
+            "js":["js/jquery.min.js", "content.js"],
+            "run_at":"document_end"
+        }
+    ],
+    "background": {
+        "scripts": ["js/background.js"],
+        "persistent": true
+      },
+      "icons": { "16": "img/icon.png",
+        "48": "img/icon.png",
+       "128": "img/icon.png"
+    },
+    
+    "permissions":["background","activeTab", "webRequestBlocking", "webRequest"]
+       
+}
