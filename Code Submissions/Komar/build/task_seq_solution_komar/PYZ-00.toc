@@ -1,0 +1,954 @@
+('C:\\Users\\ali vafaii\\Desktop\\programming\\Python\\New '
+ 'folder\\Biohackathon\\build\\task_seq_solution_komar\\PYZ-00.pyz',
+ [('inspect',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\inspect.py',
+   'PYMODULE'),
+  ('importlib',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\importlib\\__init__.py',
+   'PYMODULE'),
+  ('importlib._bootstrap_external',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\importlib\\_bootstrap_external.py',
+   'PYMODULE'),
+  ('importlib.metadata',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\importlib\\metadata.py',
+   'PYMODULE'),
+  ('contextlib',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\contextlib.py',
+   'PYMODULE'),
+  ('configparser',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\configparser.py',
+   'PYMODULE'),
+  ('posixpath',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\posixpath.py',
+   'PYMODULE'),
+  ('genericpath',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\genericpath.py',
+   'PYMODULE'),
+  ('stat',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\stat.py',
+   'PYMODULE'),
+  ('zipfile',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\zipfile.py',
+   'PYMODULE'),
+  ('py_compile',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\py_compile.py',
+   'PYMODULE'),
+  ('ntpath',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\ntpath.py',
+   'PYMODULE'),
+  ('string',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\string.py',
+   'PYMODULE'),
+  ('lzma',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\lzma.py',
+   'PYMODULE'),
+  ('_compression',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\_compression.py',
+   'PYMODULE'),
+  ('bz2',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\bz2.py',
+   'PYMODULE'),
+  ('_strptime',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\_strptime.py',
+   'PYMODULE'),
+  ('datetime',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\datetime.py',
+   'PYMODULE'),
+  ('calendar',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\calendar.py',
+   'PYMODULE'),
+  ('threading',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\threading.py',
+   'PYMODULE'),
+  ('_threading_local',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\_threading_local.py',
+   'PYMODULE'),
+  ('struct',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\struct.py',
+   'PYMODULE'),
+  ('shutil',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\shutil.py',
+   'PYMODULE'),
+  ('tarfile',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\tarfile.py',
+   'PYMODULE'),
+  ('gzip',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\gzip.py',
+   'PYMODULE'),
+  ('copy',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\copy.py',
+   'PYMODULE'),
+  ('fnmatch',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\fnmatch.py',
+   'PYMODULE'),
+  ('importlib.util',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\importlib\\util.py',
+   'PYMODULE'),
+  ('pathlib',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\pathlib.py',
+   'PYMODULE'),
+  ('urllib.parse',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\urllib\\parse.py',
+   'PYMODULE'),
+  ('email',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\email\\__init__.py',
+   'PYMODULE'),
+  ('email.parser',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\email\\parser.py',
+   'PYMODULE'),
+  ('email._policybase',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\email\\_policybase.py',
+   'PYMODULE'),
+  ('email.utils',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\email\\utils.py',
+   'PYMODULE'),
+  ('email._parseaddr',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\email\\_parseaddr.py',
+   'PYMODULE'),
+  ('socket',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\socket.py',
+   'PYMODULE'),
+  ('selectors',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\selectors.py',
+   'PYMODULE'),
+  ('email.feedparser',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\email\\feedparser.py',
+   'PYMODULE'),
+  ('email.message',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\email\\message.py',
+   'PYMODULE'),
+  ('email.policy',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\email\\policy.py',
+   'PYMODULE'),
+  ('email.contentmanager',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\email\\contentmanager.py',
+   'PYMODULE'),
+  ('email.quoprimime',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\email\\quoprimime.py',
+   'PYMODULE'),
+  ('email.headerregistry',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\email\\headerregistry.py',
+   'PYMODULE'),
+  ('email.iterators',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\email\\iterators.py',
+   'PYMODULE'),
+  ('email.generator',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\email\\generator.py',
+   'PYMODULE'),
+  ('email._encoded_words',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\email\\_encoded_words.py',
+   'PYMODULE'),
+  ('base64',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\base64.py',
+   'PYMODULE'),
+  ('getopt',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\getopt.py',
+   'PYMODULE'),
+  ('gettext',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\gettext.py',
+   'PYMODULE'),
+  ('quopri',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\quopri.py',
+   'PYMODULE'),
+  ('uu',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\uu.py',
+   'PYMODULE'),
+  ('optparse',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\optparse.py',
+   'PYMODULE'),
+  ('textwrap',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\textwrap.py',
+   'PYMODULE'),
+  ('email._header_value_parser',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\email\\_header_value_parser.py',
+   'PYMODULE'),
+  ('email.header',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\email\\header.py',
+   'PYMODULE'),
+  ('email.base64mime',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\email\\base64mime.py',
+   'PYMODULE'),
+  ('email.charset',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\email\\charset.py',
+   'PYMODULE'),
+  ('email.encoders',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\email\\encoders.py',
+   'PYMODULE'),
+  ('email.errors',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\email\\errors.py',
+   'PYMODULE'),
+  ('csv',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\csv.py',
+   'PYMODULE'),
+  ('importlib.abc',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\importlib\\abc.py',
+   'PYMODULE'),
+  ('typing',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\typing.py',
+   'PYMODULE'),
+  ('importlib._bootstrap',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\importlib\\_bootstrap.py',
+   'PYMODULE'),
+  ('argparse',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\argparse.py',
+   'PYMODULE'),
+  ('token',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\token.py',
+   'PYMODULE'),
+  ('tokenize',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\tokenize.py',
+   'PYMODULE'),
+  ('importlib.machinery',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\importlib\\machinery.py',
+   'PYMODULE'),
+  ('dis',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\dis.py',
+   'PYMODULE'),
+  ('opcode',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\opcode.py',
+   'PYMODULE'),
+  ('ast',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\ast.py',
+   'PYMODULE'),
+  ('os',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\os.py',
+   'PYMODULE'),
+  ('subprocess',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\subprocess.py',
+   'PYMODULE'),
+  ('signal',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\signal.py',
+   'PYMODULE'),
+  ('multiprocessing.popen_spawn_posix',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\multiprocessing\\popen_spawn_posix.py',
+   'PYMODULE'),
+  ('multiprocessing.resource_tracker',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\multiprocessing\\resource_tracker.py',
+   'PYMODULE'),
+  ('multiprocessing.util',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\multiprocessing\\util.py',
+   'PYMODULE'),
+  ('multiprocessing.forkserver',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\multiprocessing\\forkserver.py',
+   'PYMODULE'),
+  ('multiprocessing.connection',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\multiprocessing\\connection.py',
+   'PYMODULE'),
+  ('multiprocessing.resource_sharer',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\multiprocessing\\resource_sharer.py',
+   'PYMODULE'),
+  ('xmlrpc.client',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\xmlrpc\\client.py',
+   'PYMODULE'),
+  ('xmlrpc',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\xmlrpc\\__init__.py',
+   'PYMODULE'),
+  ('xml.parsers.expat',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\xml\\parsers\\expat.py',
+   'PYMODULE'),
+  ('xml.parsers',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\xml\\parsers\\__init__.py',
+   'PYMODULE'),
+  ('xml',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\xml\\__init__.py',
+   'PYMODULE'),
+  ('xml.sax.expatreader',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\xml\\sax\\expatreader.py',
+   'PYMODULE'),
+  ('xml.sax.saxutils',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\xml\\sax\\saxutils.py',
+   'PYMODULE'),
+  ('urllib.request',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\urllib\\request.py',
+   'PYMODULE'),
+  ('getpass',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\getpass.py',
+   'PYMODULE'),
+  ('nturl2path',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\nturl2path.py',
+   'PYMODULE'),
+  ('ftplib',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\ftplib.py',
+   'PYMODULE'),
+  ('netrc',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\netrc.py',
+   'PYMODULE'),
+  ('shlex',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\shlex.py',
+   'PYMODULE'),
+  ('mimetypes',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\mimetypes.py',
+   'PYMODULE'),
+  ('http.cookiejar',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\http\\cookiejar.py',
+   'PYMODULE'),
+  ('http',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\http\\__init__.py',
+   'PYMODULE'),
+  ('ssl',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\ssl.py',
+   'PYMODULE'),
+  ('urllib.response',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\urllib\\response.py',
+   'PYMODULE'),
+  ('urllib.error',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\urllib\\error.py',
+   'PYMODULE'),
+  ('hashlib',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\hashlib.py',
+   'PYMODULE'),
+  ('bisect',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\bisect.py',
+   'PYMODULE'),
+  ('xml.sax',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\xml\\sax\\__init__.py',
+   'PYMODULE'),
+  ('xml.sax.handler',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\xml\\sax\\handler.py',
+   'PYMODULE'),
+  ('xml.sax._exceptions',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\xml\\sax\\_exceptions.py',
+   'PYMODULE'),
+  ('xml.sax.xmlreader',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\xml\\sax\\xmlreader.py',
+   'PYMODULE'),
+  ('http.client',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\http\\client.py',
+   'PYMODULE'),
+  ('decimal',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\decimal.py',
+   'PYMODULE'),
+  ('_pydecimal',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\_pydecimal.py',
+   'PYMODULE'),
+  ('contextvars',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\contextvars.py',
+   'PYMODULE'),
+  ('numbers',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\numbers.py',
+   'PYMODULE'),
+  ('hmac',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\hmac.py',
+   'PYMODULE'),
+  ('tempfile',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\tempfile.py',
+   'PYMODULE'),
+  ('logging',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\logging\\__init__.py',
+   'PYMODULE'),
+  ('pickle',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\pickle.py',
+   'PYMODULE'),
+  ('pprint',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\pprint.py',
+   'PYMODULE'),
+  ('doctest',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\doctest.py',
+   'PYMODULE'),
+  ('unittest',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\unittest\\__init__.py',
+   'PYMODULE'),
+  ('unittest.async_case',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\unittest\\async_case.py',
+   'PYMODULE'),
+  ('asyncio',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\asyncio\\__init__.py',
+   'PYMODULE'),
+  ('asyncio.unix_events',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\asyncio\\unix_events.py',
+   'PYMODULE'),
+  ('asyncio.log',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\asyncio\\log.py',
+   'PYMODULE'),
+  ('asyncio.windows_events',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\asyncio\\windows_events.py',
+   'PYMODULE'),
+  ('asyncio.windows_utils',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\asyncio\\windows_utils.py',
+   'PYMODULE'),
+  ('asyncio.selector_events',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\asyncio\\selector_events.py',
+   'PYMODULE'),
+  ('asyncio.proactor_events',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\asyncio\\proactor_events.py',
+   'PYMODULE'),
+  ('asyncio.base_subprocess',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\asyncio\\base_subprocess.py',
+   'PYMODULE'),
+  ('asyncio.threads',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\asyncio\\threads.py',
+   'PYMODULE'),
+  ('asyncio.subprocess',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\asyncio\\subprocess.py',
+   'PYMODULE'),
+  ('asyncio.streams',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\asyncio\\streams.py',
+   'PYMODULE'),
+  ('asyncio.queues',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\asyncio\\queues.py',
+   'PYMODULE'),
+  ('asyncio.runners',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\asyncio\\runners.py',
+   'PYMODULE'),
+  ('asyncio.events',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\asyncio\\events.py',
+   'PYMODULE'),
+  ('asyncio.base_events',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\asyncio\\base_events.py',
+   'PYMODULE'),
+  ('concurrent.futures',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\concurrent\\futures\\__init__.py',
+   'PYMODULE'),
+  ('concurrent.futures.thread',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\concurrent\\futures\\thread.py',
+   'PYMODULE'),
+  ('queue',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\queue.py',
+   'PYMODULE'),
+  ('concurrent.futures.process',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\concurrent\\futures\\process.py',
+   'PYMODULE'),
+  ('multiprocessing.queues',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\multiprocessing\\queues.py',
+   'PYMODULE'),
+  ('multiprocessing.synchronize',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\multiprocessing\\synchronize.py',
+   'PYMODULE'),
+  ('multiprocessing.heap',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\multiprocessing\\heap.py',
+   'PYMODULE'),
+  ('concurrent.futures._base',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\concurrent\\futures\\_base.py',
+   'PYMODULE'),
+  ('concurrent',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\concurrent\\__init__.py',
+   'PYMODULE'),
+  ('asyncio.trsock',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\asyncio\\trsock.py',
+   'PYMODULE'),
+  ('asyncio.staggered',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\asyncio\\staggered.py',
+   'PYMODULE'),
+  ('asyncio.tasks',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\asyncio\\tasks.py',
+   'PYMODULE'),
+  ('asyncio.base_tasks',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\asyncio\\base_tasks.py',
+   'PYMODULE'),
+  ('asyncio.locks',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\asyncio\\locks.py',
+   'PYMODULE'),
+  ('asyncio.sslproto',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\asyncio\\sslproto.py',
+   'PYMODULE'),
+  ('asyncio.transports',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\asyncio\\transports.py',
+   'PYMODULE'),
+  ('asyncio.protocols',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\asyncio\\protocols.py',
+   'PYMODULE'),
+  ('asyncio.futures',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\asyncio\\futures.py',
+   'PYMODULE'),
+  ('asyncio.exceptions',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\asyncio\\exceptions.py',
+   'PYMODULE'),
+  ('asyncio.coroutines',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\asyncio\\coroutines.py',
+   'PYMODULE'),
+  ('asyncio.base_futures',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\asyncio\\base_futures.py',
+   'PYMODULE'),
+  ('asyncio.format_helpers',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\asyncio\\format_helpers.py',
+   'PYMODULE'),
+  ('asyncio.constants',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\asyncio\\constants.py',
+   'PYMODULE'),
+  ('unittest.signals',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\unittest\\signals.py',
+   'PYMODULE'),
+  ('unittest.main',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\unittest\\main.py',
+   'PYMODULE'),
+  ('unittest.runner',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\unittest\\runner.py',
+   'PYMODULE'),
+  ('unittest.loader',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\unittest\\loader.py',
+   'PYMODULE'),
+  ('unittest.suite',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\unittest\\suite.py',
+   'PYMODULE'),
+  ('unittest.case',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\unittest\\case.py',
+   'PYMODULE'),
+  ('unittest._log',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\unittest\\_log.py',
+   'PYMODULE'),
+  ('unittest.result',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\unittest\\result.py',
+   'PYMODULE'),
+  ('unittest.util',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\unittest\\util.py',
+   'PYMODULE'),
+  ('pdb',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\pdb.py',
+   'PYMODULE'),
+  ('pydoc',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\pydoc.py',
+   'PYMODULE'),
+  ('webbrowser',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\webbrowser.py',
+   'PYMODULE'),
+  ('http.server',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\http\\server.py',
+   'PYMODULE'),
+  ('socketserver',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\socketserver.py',
+   'PYMODULE'),
+  ('html',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\html\\__init__.py',
+   'PYMODULE'),
+  ('html.entities',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\html\\entities.py',
+   'PYMODULE'),
+  ('pydoc_data.topics',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\pydoc_data\\topics.py',
+   'PYMODULE'),
+  ('pydoc_data',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\pydoc_data\\__init__.py',
+   'PYMODULE'),
+  ('tty',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\tty.py',
+   'PYMODULE'),
+  ('sysconfig',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\sysconfig.py',
+   'PYMODULE'),
+  ('_aix_support',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\_aix_support.py',
+   'PYMODULE'),
+  ('_bootsubprocess',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\_bootsubprocess.py',
+   'PYMODULE'),
+  ('_osx_support',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\_osx_support.py',
+   'PYMODULE'),
+  ('distutils.log',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\distutils\\log.py',
+   'PYMODULE'),
+  ('distutils',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\distutils\\__init__.py',
+   'PYMODULE'),
+  ('distutils.ccompiler',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\distutils\\ccompiler.py',
+   'PYMODULE'),
+  ('distutils.fancy_getopt',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\distutils\\fancy_getopt.py',
+   'PYMODULE'),
+  ('distutils.debug',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\distutils\\debug.py',
+   'PYMODULE'),
+  ('distutils.util',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\distutils\\util.py',
+   'PYMODULE'),
+  ('distutils.filelist',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\distutils\\filelist.py',
+   'PYMODULE'),
+  ('distutils.dep_util',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\distutils\\dep_util.py',
+   'PYMODULE'),
+  ('distutils.dir_util',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\distutils\\dir_util.py',
+   'PYMODULE'),
+  ('distutils.file_util',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\distutils\\file_util.py',
+   'PYMODULE'),
+  ('distutils.spawn',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\distutils\\spawn.py',
+   'PYMODULE'),
+  ('distutils.errors',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\distutils\\errors.py',
+   'PYMODULE'),
+  ('distutils.sysconfig',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\distutils\\sysconfig.py',
+   'PYMODULE'),
+  ('distutils.text_file',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\distutils\\text_file.py',
+   'PYMODULE'),
+  ('platform',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\platform.py',
+   'PYMODULE'),
+  ('plistlib',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\plistlib.py',
+   'PYMODULE'),
+  ('pkgutil',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\pkgutil.py',
+   'PYMODULE'),
+  ('zipimport',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\zipimport.py',
+   'PYMODULE'),
+  ('runpy',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\runpy.py',
+   'PYMODULE'),
+  ('glob',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\glob.py',
+   'PYMODULE'),
+  ('code',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\code.py',
+   'PYMODULE'),
+  ('codeop',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\codeop.py',
+   'PYMODULE'),
+  ('bdb',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\bdb.py',
+   'PYMODULE'),
+  ('cmd',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\cmd.py',
+   'PYMODULE'),
+  ('difflib',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\difflib.py',
+   'PYMODULE'),
+  ('__future__',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\__future__.py',
+   'PYMODULE'),
+  ('_compat_pickle',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\_compat_pickle.py',
+   'PYMODULE'),
+  ('multiprocessing.process',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\multiprocessing\\process.py',
+   'PYMODULE'),
+  ('multiprocessing.context',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\multiprocessing\\context.py',
+   'PYMODULE'),
+  ('multiprocessing.popen_forkserver',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\multiprocessing\\popen_forkserver.py',
+   'PYMODULE'),
+  ('multiprocessing.sharedctypes',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\multiprocessing\\sharedctypes.py',
+   'PYMODULE'),
+  ('ctypes',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\ctypes\\__init__.py',
+   'PYMODULE'),
+  ('ctypes._endian',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\ctypes\\_endian.py',
+   'PYMODULE'),
+  ('multiprocessing.pool',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\multiprocessing\\pool.py',
+   'PYMODULE'),
+  ('multiprocessing.dummy',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\multiprocessing\\dummy\\__init__.py',
+   'PYMODULE'),
+  ('multiprocessing.dummy.connection',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\multiprocessing\\dummy\\connection.py',
+   'PYMODULE'),
+  ('multiprocessing.managers',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\multiprocessing\\managers.py',
+   'PYMODULE'),
+  ('multiprocessing.shared_memory',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\multiprocessing\\shared_memory.py',
+   'PYMODULE'),
+  ('secrets',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\secrets.py',
+   'PYMODULE'),
+  ('multiprocessing.reduction',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\multiprocessing\\reduction.py',
+   'PYMODULE'),
+  ('multiprocessing.popen_fork',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\multiprocessing\\popen_fork.py',
+   'PYMODULE'),
+  ('multiprocessing.popen_spawn_win32',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\multiprocessing\\popen_spawn_win32.py',
+   'PYMODULE'),
+  ('multiprocessing.spawn',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\multiprocessing\\spawn.py',
+   'PYMODULE'),
+  ('multiprocessing',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\multiprocessing\\__init__.py',
+   'PYMODULE'),
+  ('_py_abc',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\_py_abc.py',
+   'PYMODULE'),
+  ('stringprep',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\stringprep.py',
+   'PYMODULE'),
+  ('tracemalloc',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\tracemalloc.py',
+   'PYMODULE'),
+  ('random',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\random.py',
+   'PYMODULE'),
+  ('statistics',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\statistics.py',
+   'PYMODULE'),
+  ('fractions',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\fractions.py',
+   'PYMODULE'),
+  ('urllib',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\urllib\\__init__.py',
+   'PYMODULE'),
+  ('Bio.Entrez',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\site-packages\\Bio\\Entrez\\__init__.py',
+   'PYMODULE'),
+  ('Bio._utils',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\site-packages\\Bio\\_utils.py',
+   'PYMODULE'),
+  ('Bio.Entrez.Parser',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\site-packages\\Bio\\Entrez\\Parser.py',
+   'PYMODULE'),
+  ('xml.etree.ElementTree',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\xml\\etree\\ElementTree.py',
+   'PYMODULE'),
+  ('xml.etree.cElementTree',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\xml\\etree\\cElementTree.py',
+   'PYMODULE'),
+  ('xml.etree.ElementInclude',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\xml\\etree\\ElementInclude.py',
+   'PYMODULE'),
+  ('xml.etree.ElementPath',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\xml\\etree\\ElementPath.py',
+   'PYMODULE'),
+  ('xml.etree',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\xml\\etree\\__init__.py',
+   'PYMODULE'),
+  ('Bio',
+   'C:\\Users\\ali '
+   'vafaii\\AppData\\Local\\Programs\\Python\\Python39-32\\lib\\site-packages\\Bio\\__init__.py',
+   'PYMODULE')])

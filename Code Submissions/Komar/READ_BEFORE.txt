@@ -1,0 +1,10 @@
+Before running the task_seq_solution_komar.py make sure that biopython is installed
+on your PC.
+================================================================
+To use this program you should enter GenBank Access Number of the nucleic acid 
+sequence you want to use.
+================================================================
+Make sure you are connected to the internet while using this program.
+================================================================
+You can run .exe file in the folder 'dist' without needing to install biopython
+================================================================
