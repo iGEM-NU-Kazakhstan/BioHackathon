@@ -2,7 +2,7 @@
 
 Team Chrispies is happy to announce our **Chrispie Seeker V.0**!
 
-Seqence Seeker seeks and hides restrictive enzymes in a given DNA
+Chrispie Seeker seeks and hides restrictive enzymes in a given DNA
 
 
 ## How to launch
