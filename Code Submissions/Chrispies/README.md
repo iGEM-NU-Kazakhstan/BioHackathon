@@ -6,8 +6,8 @@ Seqence Seeker seeks and hides restrictive enzymes in a given DNA
 
 
 ## How to launch
-Download code files to your copmputer and run python3 main.py
-
+1. `git clone https://github.com/CapYangWenli/Chrispies`
+2. `python3 main.py`
 
 ## How to use
 
