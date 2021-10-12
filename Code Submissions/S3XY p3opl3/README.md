@@ -15,4 +15,10 @@ Data Sources:
 2. Restriction Sites (from 5' to 3'). Source:http://rebase.neb.com/rebase/link_bairochc
 
 
-
+## How to run server locally
+1. Install docker && cd into this folder 
+2. Run `sudo docker build -t restrictions-enzymes .`
+ Note that this step could take some time when running first time.
+3. Run sudo docker run -dp 5000:5000 restrictions-enzymes
+4. It should be available in localhost::5000
+5. (Optional) Consider using ngrok to share local server to the world :) (use port 5000)
