@@ -1,4 +1,7 @@
 import os
+import time
+
+USR_FLAG = False
 
 try: 
     os.system('cls')
@@ -29,7 +32,7 @@ with open("source/DNA_res_sam.txt", "r") as DNA_res_sam_fn:
 
 i = 0
 
-print("--- DNA Restrictive Sequence Hidder V.0 ---")
+print("--- DNA Restrictive Sequence Seeker V.0 ---")
 print("Please, provide us with the path to a file with DNA (if left blank, a DNA file in source/DNA.txt path will be used)")
 
 usr1 = input()
@@ -68,6 +71,11 @@ if usr2.lower() == 'y':
         print(seq)
     
     
+usr4 = input("\nDo you want to choose how to change restrictive sequences? (y/n):")
+
+if usr4.lower() == 'y':
+    USR_FLAG = True
+
 lst = []
 
 # Finding and indexing restrictive sequence on DNA
@@ -112,31 +120,83 @@ for inx_dna, inx_resseq in lst:
     codon_changed = False
     new_codons_lst = []
 
-    #Changing codons to hide restrictive sequence
-    for codon_i, codon in enumerate(codons_lst):
-        new_codon = codon
-        for acid in acid_table:
-            if codon in acid:
-
-                if len(acid) == 1 or codon_changed or codon_i == 0: # First codon would not be changed. For preventing bugs
-                    break
-                
-                temp_lst = acid.copy()
-                temp_lst.remove(codon)
-                new_codon = temp_lst[0]
-                codon_changed = True
-
-        new_codons_lst.append(new_codon) 
-
-    new_codons = ''.join(new_codons_lst)
-
-    # Output for user
-    new_sam[cod_start:cod_end + 1] = new_codons
     print("Restrictive sequence: {}".format(resseq))
     print("Index on DNA: {}".format(inx_dna))
     print("Codons that belong to the r. sequence: {}".format(codons_str))
-    print("Proporsed changes to hide r. sequence {}".format(new_codons))
-    print('\n')
+
+
+    if USR_FLAG:
+        print("\nHere is a list of codons: \n")
+        for temp_i, temp_item in enumerate(codons_lst):
+            print("{}. {}".format(temp_i + 1, temp_item))
+
+        codons_n = len(codons_lst)
+        print("\nYou have {} codons here. Choose the one you want to change".format(codons_n))
+        usr5 = input("Select a codon with an integer from 1 to {}: ".format(codons_n))
+
+        if not usr5.isdigit:
+            print("You must choose an integer in specified range. Your imput is not a integer")
+            print("Terminate")
+            quit()
+
+        usr5 = int(usr5)
+        usr_codon = codons_lst[usr5 - 1]
+        new_codons_lst = codons_lst.copy()
+
+
+        for acid in acid_table:
+            if usr_codon in acid:
+                print("\nHere are codons from same amino acid:\n")
+                temp_lst = acid.copy()
+                temp_lst.remove(usr_codon)
+                for temp_i, temp_item in enumerate(temp_lst):
+                    print("{}. {}".format(temp_i, temp_item))
+                print("\nWhich of them you want to choose?")
+                usr6 = input("Select an integer from 0 to {}: ".format(temp_i))
+                
+                if not usr6.isdigit:
+                    print("You must choose an integer in specified range. Your imput is not a integer")
+                    print("Terminate")
+                    quit()
+
+                usr6 = int(usr6)
+                new_codon = temp_lst[usr6]
+                new_codons_lst[usr5 - 1] = new_codon
+                break
+
+        new_codons = ''.join(new_codons_lst)
+
+        print("\nYour new codons for this restricting site are:\n")
+        for temp_i, temp_item in enumerate(new_codons_lst):
+            print("{}. {}".format(temp_i, temp_item))        
+        print("\n")
+        print("or: {} \n\n".format(new_codons))
+        new_sam[cod_start:cod_end + 1] = new_codons
+        print("------------------")
+        time.sleep(2)
+
+    else:
+        for codon_i, codon in enumerate(codons_lst):
+            new_codon = codon
+            for acid in acid_table:
+                if codon in acid:
+
+                    if len(acid) == 1 or codon_changed or codon_i == 0: # First codon would not be changed. For preventing bugs
+                        break
+                    
+                    temp_lst = acid.copy()
+                    temp_lst.remove(codon)
+                    new_codon = temp_lst[0]
+                    codon_changed = True
+
+            new_codons_lst.append(new_codon) 
+
+        new_codons = ''.join(new_codons_lst)
+
+        # Output for user
+        new_sam[cod_start:cod_end + 1] = new_codons
+        print("Proporsed changes to hide r. sequence {}".format(new_codons))
+        print('\n')
     
     # (FOR DEBUGGING) print("inx_dna: {}, resseq: {}, inx_dnaend: {}, cod_start: {}, cod_end: {}, codons: {}, codons list: {}, new codons lst: {}, "
     #         .format(inx_dna, resseq, inx_dnaend, cod_start, cod_end, codons_str, codons_lst, new_codons, new_sam[cod_start:cod_end + 1]))
