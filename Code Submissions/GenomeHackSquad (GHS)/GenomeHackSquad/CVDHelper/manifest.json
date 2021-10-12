@@ -1,0 +1,32 @@
+{ "name": "CVDHelper | iGEM Code-On 2021",
+  "version": "1.13.3",
+  "description": "CVDHelper by GenomeHackSquad",
+  "manifest_version": 2,
+  "permissions": [
+    "<all_urls>",
+    "tabs"
+  ],
+  "background": {
+    "scripts": [
+      "src/common.js",
+      "src/storage.js",
+      "src/background.js"
+    ]
+  },
+  "browser_action": {
+    "default_title": "CVDHelper by GenomeHackSquad",
+    "default_popup": "src/popup.html"
+  },
+  "content_scripts": [
+    {
+      "run_at": "document_start",
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": [
+        "src/common.js",
+        "src/cvd.js"
+      ]
+    }
+  ]
+}
