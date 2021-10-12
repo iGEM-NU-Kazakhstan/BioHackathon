@@ -1,0 +1,211 @@
+@font-face {
+    font-family: 'simple-line-icons';
+    src: url('fonts/Simple-Line-Icons.eot?v=2.4.0');
+    src: url('fonts/Simple-Line-Icons.eot?v=2.4.0#iefix') format('embedded-opentype'), url('fonts/Simple-Line-Icons.woff2?v=2.4.0') format('woff2'), url('fonts/Simple-Line-Icons.ttf?v=2.4.0') format('truetype'), url('fonts/Simple-Line-Icons.woff?v=2.4.0') format('woff'), url('fonts/Simple-Line-Icons.svg?v=2.4.0#simple-line-icons') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html {
+    font-size: 100%;
+    font-family: Arial !important;
+}
+
+.special body {
+    margin-top: 64px;
+    min-width: 300px;
+}
+
+#special a {
+    font-size: 1rem !important;
+}
+
+.special-reset i,
+.special-quit i,
+.special-images i,
+.special-audio i,
+i.special-audio {
+    font-family: 'simple-line-icons' !important;
+    cursor: pointer;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.special-audio i:before {
+    content: "\e09f";
+}
+
+.special-reset i:before {
+    content: "\e09a";
+}
+
+.special-quit i:before {
+    content: "\e087";
+}
+
+.special-images button[value='0'] i:before {
+    content: "\e07c";
+}
+
+.special-images button[value='1'] i:before {
+    content: "\e032";
+}
+
+marquee {
+    display: none !important;
+}
+
+#special {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    padding: 8px 0;
+    border-bottom: 1px solid gray;
+    z-index: 999999;
+    cursor: default;
+    line-height: 1em !important;
+}
+
+#special * {
+    font-size: 0 !important;
+}
+
+#special {
+    webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#special i {
+    font-style: normal;
+    font-weight: bold;
+    line-height: 30px !important;
+    color: inherit !important;
+    background: inherit !important;
+    font-size: inherit !important;
+}
+
+#special .special-panel div {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    margin-left: 16px;
+    margin-bottom: 5px;
+}
+
+#special span,
+#special em {
+    font-size: 16px !important;
+    vertical-align: middle;
+}
+
+#special button {
+    margin: 0 2px;
+    border: 1px solid;
+    border-color: inherit;
+    min-width: 32px;
+    text-align: center;
+    padding: 5px;
+    line-height: normal;
+    text-decoration: none;
+    vertical-align: middle;
+    overflow: hidden;
+    box-sizing: border-box;
+    text-align: center;
+    cursor: pointer;
+    outline: 0;
+    height: auto;
+    text-transform: none;
+    font-size: 20px !important;
+    color: inherit;
+    background: inherit;
+}
+
+#special .special-panel button {
+    height: 32px;
+    line-height: 32px !important;
+    padding: 0;
+}
+
+#special,
+#special .active {
+    border-bottom-width: 3px;
+}
+
+.special-reset {
+    display: inline-block;
+}
+
+.special-font-size-1 *,
+#special .special-font-size button[value='1'] {
+    font-size: 1rem !important;
+}
+
+.special-font-size-2 *,
+#special .special-font-size button[value='2'] {
+    font-size: 1.5rem !important;
+}
+
+.special-font-size-3 *,
+#special .special-font-size button[value='3'] {
+    font-size: 2rem !important;
+}
+
+.special-color-1 *,
+#special .special-color button[value='1'] {
+    color: #000 !important;
+    background: #FFF !important;
+    border-color: #000 !important;
+}
+
+.special-color-2 *,
+#special .special-color button[value='2'] {
+    color: #FFF !important;
+    background: #000 !important;
+    border-color: #FFF !importan;
+}
+
+.special-color-3 *,
+#special .special-color button[value='3'] {
+    color: #063462 !important;
+    background: #9dd1ff !important;
+    border-color: #063462 !important;
+}
+
+.special-color-4 *,
+#special .special-color button[value='4'] {
+    color: #59422e !important;
+    background: #f7f3d6 !important;
+    border-color: #59422e !important;
+}
+
+.special-color-5 *,
+#special .special-color button[value='5'] {
+    color: #a9dd38 !important;
+    background: #3b2716 !important;
+    border-color: #a9dd38 !important;
+}
+
+@media(max-width:940px) {
+    #special .special-panel span {
+        display: none;
+    }
+}
+
+@media(max-width:460px) {
+    .special body {
+        margin-top: 104px;
+    }
+}
