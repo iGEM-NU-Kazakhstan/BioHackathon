@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="css/style.css" type="text/css"/>
+        <script src="js/jquery.min.js"></script>
+        
+        <script src="content.js"></script>
+        <script type="text/javascript" src="js/jquery.wheelcolorpicker.js"></script>
+        <link type="text/css" rel="stylesheet" href="css/wheelcolorpicker.css" />
+        <script type="text/javascript" src="js/background.js"></script>
+
+        <script src="js/add_remover.js"></script>
+    
+    </head>
+    <body>
+        <div class="wrapper">
+            <div class="header">
+                <h2><span id="logo">Access</span></h3>
+                <div class="languages">
+                    <img id="eng" src='img/eng.png' class="lang_button" width="30px" height="20px">
+                    <img id="rus" src='img/rus.png' class="lang_button" width="30px" height="20px">
+                    <img id="kaz" src='img/kaz.jpeg' class="lang_button" width="30px" height="20px">
+                </div>
+            </div>
+
+            <div id="content" class="content">
+                <h3><span id="bs">Basic settings</span></h3>
+                <div id="expand" class="block-title">Show</div>
+                <div id="main-content" class="main-content">
+                    <div style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <span id="theme">Theme:</span> 
+                            <button id="white" class="theme" style="border:1px solid #000; font-weight:bolder;color: #000; background-color: #fff;">F</button> 
+                            <button id="dark" class="theme" style="border:1px solid #000; font-weight:bolder;background-color: #000; color: #fff;">F</button> 
+                            <button id="sepia" class="theme"  style="border:1px solid #000; font-weight:bolder; background-color: rgb(242, 232, 218); color:rgb(60, 41, 13);">F</button>
+                        </div>
+                        <img id="restore-default-fontSize"  src="img/reset.png" width="30px" style="cursor:pointer">
+
+                    </div>
+                    
+                    <div>
+                        <span id="hl_links">Highlight links:</span>
+                        <button id="highlight-links-enabled" class="apply button">Enable</button>
+                        <button id="highlight-links-disabled" class="apply button">Disable</button>
+                    </div>
+                    <div style="display:flex; align-items: center;">
+                        <span id="bw">Images:</span> 
+                        <img id="bw-image-disable"  style="margin-left: 10px;" src="img/show_icon.png" width="20px" height="20px">
+                        <img id="bw-image-remove" style="margin-left: 10px;" src="img/hidden.png" width="25px" height="25px">
+                        <img id="bw-image-enable"  style="margin-left: 10px;" src="img/bw_icon.png" width="20px" height="20px">
+                        
+                    </div>
+                    <div> 
+                    <div><span id="hl">Highlighter:</span> <button id="highlight" class="button">Apply</button></div>
+                        <div>
+                            <span id="font_size">Font size: </span>
+                            <span id="remove-size"  class="control">–</span>
+                            <input type="text" id="font_size_input" value="16 px" class="hm" readonly/>
+                            <span  id="add-size" class="control">+</span>
+                        </div>
+                    </div>  
+
+                    </div>
+                    
+                    
+                   
+                </div>
+
+            <div class="advanced-content">
+                    <h3><span id="as">Advanced settings</span></h3>
+
+                    <div class="block">
+                        <div id="text-menu" class="block-item">
+                            <div id="block-title1" class="block-title">Text settings</div>
+                            <div id="block-text1" class="block-text">
+                                <div style="display: flex; justify-content: space-between;">
+                                    <div>
+                                        <span id="c">Color:</span> 
+                                        <input type="text" id="custom-color-text" class="hm"name="fonts" placeholder="#fff" data-wheelcolorpicker readonly/>
+                                        
+                                        <span id="bg">BCG Color:</span> 
+                                        <input type="text" id="custom-color-bcg" class="hm"name="fonts" placeholder="#000" data-wheelcolorpicker readonly />
+                                    </div>
+                                    <input type="button" id="custom" value="Change" class="apply button"/>
+                                </div>
+                                <div><span id="ls">Line spacing:</span> 
+                                    <span id="remove-int"  class="control">–</span>
+                                    <input type="text" id="line_space_input" value="30 px" class="hm"  readonly/>
+                                    <span  id="add-int" class="control">+</span>
+                                    </div>
+                                <div><span id="cf">Choose font:</span></div> 
+                                <div style="display: flex; justify-content:space-between;">
+                                    <div>
+                                        <input type="radio" id="arial" name="fonts" value="arial">
+                                        <label style="font-family: Arial;" for="arial">Arial</label>
+                                        <input type="radio" id="open-sans" name="fonts" value="open-sans">
+                                        <label  for="open-sans" style="font-family: Open-sans;">Open-sans</label>
+                                        <input type="radio" id="verdana" name="fonts" value="verdana">
+                                        <label for="verdana" style="font-family: Verdana;">Verdana</label>
+         
+                                    </div>
+                                    <button id="button-for-fontStyle" class="apply button">Change</button>
+                                </div>
+                                <div><span id="hf">Change color of highlight:</span></div>
+                                <div style="display: flex; justify-content:space-between;">
+                                    <div>
+                                        <input type="radio" id="yellow" name="colors" value="black">
+                                        <label  for="yellow" style="padding: 1px 2px 1px 2px;border: 1px solid #000;color:#000; background-color: yellow;">Yellow</label>
+                                        <input type="radio" id="black" name="colors" value="white">
+                                        <label for="black" style="padding: 1px 2px 1px 2px;border: 1px solid #000;color:#fff; background-color: black;">Black</label>
+                                        <input type="radio" id="white" name="colors" value="black">
+                                        <label for="white" style="padding: 1px 2px 1px 2px;border: 1px solid #000; color:#000; background-color: white;">White</label>
+                                    </div>
+                                    <button id="button-for-colorStyle" class="apply button">Change</button>
+                                </div>
+                                    
+                                <div>
+                                    <span id="bold">Boldness: </span>
+                                    <button id="remove-bold" class="apply button" >Normal</button>
+                                    <button id="add-bold" class="apply button" style="font-weight: bold;">Bold</button>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div id="image-menu" class="block-item">
+                            <div id="block-title2" class="block-title">Image settings</div>
+                            <div id="block-text2"class="block-text">
+                                <div>
+                                    <span id="B">Brightness: </span>
+                                    <span id="remove-bright"  class="control">–</span>
+                                    <input type="text" class="hm" readonly  id="bright_input" value="100%">
+                                    <span class="control" id="add-bright">+</span>
+                                </div>
+                                <div>
+                                    <span id="S">Saturation:</span> 
+                                    <span id="remove-satur"  class="control">–</span>
+                                    <input type="text" class="hm" readonly  value="100%" id="satur_input">
+                                    <span class="control" id="add-satur">+</span>
+                                </div>
+                                <div>
+                                    <span id="C">Contrast:</span> 
+                                    <span id="remove-contr"  class="control">–</span>
+                                    <input type="text" class="hm"  readonly value="100%" id="contr_input">
+                                    <span class="control" id="add-contr">+</span>
+                                </div>
+                                <div style="display: flex; justify-content: center; margin-top: 10px;">
+                                    <img src="test.jpg" id="test_img" width="120px">
+                                </div>
+                                <div style="display: flex; justify-content: center; margin-top: 10px;">
+                                    <input type="button" class="button" value="Apply" id="change_image"/>
+                                </div>
+                            </div>
+                           
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>     
+</body>
+    
+</html>

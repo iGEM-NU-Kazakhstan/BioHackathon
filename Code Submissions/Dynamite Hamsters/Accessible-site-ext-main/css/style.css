@@ -1,0 +1,186 @@
+html,body{
+    font-family: Helvetica, sans-serif;
+    font-size: 18px;
+    user-select: none;
+}
+body{
+    background-color: rgba(103, 84, 84, 0.1);
+}
+label, input, button, div{
+    font-size: 18px;
+}
+input, button{
+    cursor: pointer;
+}
+input{
+    border: 1px solid #000;
+    border-radius: 2px;
+
+}
+input:hover{
+    border: 1px solid #8f0000;
+}
+div{
+    line-height: 30px;
+
+}
+p{
+    margin: 0;
+}
+.hm{
+    width:70px;
+    text-align: center;
+}
+.block{
+ 
+}
+.header{
+    display: flex; justify-content:space-between;
+}
+.wrapper{
+    width: 420px;
+    margin: 10px 10px 10px 10px;
+    height: 100%;
+}
+
+.block-item{
+    margin: 0px 0px 10px 0px;
+}
+
+.block-title{
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    position: relative;
+    padding: 0px 5px 0px 30px;
+    cursor: pointer;
+}
+
+.main-content{
+    display: block;
+}
+.main-content.active{
+    display: none;
+}
+
+.apply{
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+#expand{
+    display: none;
+}
+#expand.active{
+    display: block;
+    
+}
+
+.block-title:hover{
+    background-color: rgb(141, 141, 141, 0.5);
+}
+
+.control{
+    margin: 0px 2px 0px 2px;
+    cursor: pointer;
+    font-weight: bolder;
+    font-size: 25px;
+
+}
+.control:hover{
+    color:#8f0000;
+}
+.theme{
+    width: 40px;
+}
+
+h3{
+    border-bottom: 1px solid rgb(155, 155, 155, 0.5);
+    color:#8f0000;
+}
+h2{
+    text-transform: uppercase;
+    color:#5b0101;
+
+}
+h2, h3{
+    
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+}
+.block-title::before, .block-title::after{
+    content: '';
+    width: 10px;
+    height: 1px;
+    background-color: #000;
+    position: absolute;
+    top: 12px;
+
+    transition: 0.5s;
+}
+.button{
+    background-color: rgb(179, 179, 179, 0.2);
+    color: #000;
+    border: 1px solid #000;
+    border-radius: 2px;
+}
+.button:hover{
+    background-color: #8f0000;
+    color: #fff;
+
+}
+.block-title::before{
+    transform: rotate(40deg);
+    left:4px;
+
+}
+.block-title::after{
+    transform: rotate(-40deg);
+    left:12px;
+}
+
+.block-text{
+    padding: 5px 0px 0px 0px;
+    transition: all .5s;
+    height: 0;
+    display: none;
+    
+}
+.lang_button{
+    border: 1px solid rgb(155, 155, 155, 0.5);
+}
+
+.block-text.active{
+    display: block;
+    height: auto;
+    transition: all .5s;
+}
+
+.block-title.active::before, .block-title.active::after{
+    background-color: #8f0000;
+
+}
+.block-title.active::before{
+    transform: rotate(-40deg);
+    transition: 0.5s;
+
+}
+.block-title.active::after{
+    transform: rotate(40deg);
+    transition: 0.5s;
+}
+#content_eng.active{
+    display: none;
+}
+#content_rus, #content_kaz{
+    display: none;
+}
+#content_rus.active{
+    display: block;
+}
+
+#content_kaz.active{
+    display: block;
+}
+
+
