@@ -1,0 +1,55 @@
+body {
+	min-width:450px;
+	font-size: 20px;
+	background-color: black;
+}
+
+div{
+	text-align:center;
+	color: white;
+	font-weight: bold;
+	margin-bottom: -10px;
+}
+
+p{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	color: white;
+	text-align:center;
+	width: 90%;
+}
+
+#Voices{
+	height: 25px;
+	font-size: 17px;
+	width: 90%;
+	display: block;
+	margin-left:auto;
+	margin-right: auto;
+	color: white;
+	background-color: black;
+	text-align:center;
+}
+
+#Start_button{
+	height: 30px;
+	font-size: 20px;
+	width: 90%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	background-color: black;
+	color: white; 
+	margin-top: -10px;
+	margin-bottom: -15px;
+}
+
+#hidden{
+	display: none;
+	width: 1px;
+	height: 1px;
+	margin-bottom: -15px;
+	margin-top: -15px;
+}

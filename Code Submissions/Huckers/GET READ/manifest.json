@@ -1,0 +1,21 @@
+{
+    "manifest_version": 2,
+    "name": "GET READ",
+    "description": "A tool to help people with eye disabilities make browsing more comfortable. Select the needed area, choose the language and press the Synthesize speech button",
+    "version": "1.0.0",
+    "icons": {
+    "16" : "Fin.png",
+    "48" : "Fin.png",
+    "128": "Fin.png"
+    },
+    "browser_action": {
+    "default_icon": "Fin.png",
+    "default_popup": "popup.html"
+    },
+    "permissions": ["tabs" , "<all_urls>", "activeTab", "*://*/*", "http://*/*","https://*/*","file://*"],
+    "content_scripts":[{
+    "js" : ["action.js"],
+    "matches": ["<all_urls>", "http://*/*","https://*/*","file://*"],
+    "all_frames": true
+}]
+}
